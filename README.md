@@ -1,56 +1,74 @@
-# Restaurant Menu Display - Royal Spice
+# React Restaurant Menu – SHAHAD RAZI
 
-A React app built with Vite that showcases a restaurant menu using a reusable `MenuItem` component.
+A simple and responsive restaurant menu website built using **React.js**.  
+This project displays food categories, item names, images, and prices in a clean and organized layout.
 
-## Live Website
-(Deploy this to Vercel or Netlify and paste the live URL here)  
-https://restaurant-menu-shahadrazi.vercel.app
+---
 
-## GitHub Repository
-https://github.com/shahadrazi/restaurant-menu-shahadrazi
+## 🚀 Live Demo
 
-## Components
-- `MenuItem.jsx` — Reusable component that displays:
-  - name, category, price, description
-  - conditional vegetarian badge when `isVegetarian` is `true`
+👉 **https://react-restaurant-menu-shahadrazi.vercel.app**
 
-## Features
-- Main Course and Dessert sections
-- MenuItem component reused with `map()` and unique `key` props
-- Vegetarian badge conditionally rendered
-- Total items count, hours, and contact information
-- Responsive layout with basic styling
+---
 
-## Run Locally
-1. Clone the repo:
-```bash
-git clone https://github.com/shahadrazi/restaurant-menu-shahadrazi.git
-cd restaurant-menu-shahadrazi
-```
-2. Install dependencies:
+## 📌 Features
+
+- 🍽️ Dynamic restaurant menu layout  
+- 📷 Responsive food item images  
+- 🧾 Separate sections for different food categories  
+- 🎨 Clean UI and modern styling  
+- ⚡ Fast & fully deployed on Vercel  
+- 📱 Mobile-friendly design  
+
+---
+
+## 📁 Project Structure
+
+react-restaurant-menu-shahadrazi/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ ├── index.js
+│── package.json
+│── README.md
+
+yaml
+Copy code
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS**
+- **Node.js**
+- **Vercel Deployment**
+
+---
+
+## 📦 Installation & Setup (Optional)
+
+If you want to run the project locally:
+
 ```bash
 npm install
-```
-3. Start development server:
-```bash
-npm run dev
-```
-4. Open the site at `http://localhost:5173`
+npm start
+🌐 Deployment
+This project is deployed on Vercel.
 
-## Project Structure
-```
-restaurant-menu-shahadrazi/
-├── index.html
-├── package.json
-├── vite.config.js
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── App.css
-    ├── index.css
-    └── components/
-        └── MenuItem.jsx
-```
+To deploy your own version:
 
-## Author
-Shahad Razi
+Push your project to GitHub
+
+Go to https://vercel.com
+
+Import repository
+
+Deploy 🚀
+
+👤 Author
+Shahad Razi S H
+GitHub: https://github.com/shahadrazi
